@@ -78,13 +78,12 @@ app.put("/completed", async function (req, res) {
 // Global catch
 app.use((err, req, res, next) => {
     res.status(500).send({
-        error: err,
-        END: "ERROR end",
+        msg: "Server Error"
     });
 });
 app.all("*", (req, res) => {
     res.status(404).send({
-        message: "Page does not exist",
+        msg: "Does not exist",
     });
 });
 
