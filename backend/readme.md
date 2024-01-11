@@ -4,12 +4,13 @@
 
 1. rename **.keys.js** to **keys.js**
 2. enter your mongodb clustor url in **url** variable
+3. node index.js
 
 ### Note
 
 /todo : name of databases
 
-##end-points
+## end-points
 
 ## 1. Get all items
 
