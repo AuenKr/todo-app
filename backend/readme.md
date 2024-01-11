@@ -12,12 +12,12 @@
 
 #### Get all items
 
-```http
+```
   GET /todos
 ```
 #### add todo
 
-```http
+```
   POST /todo
 
   body : {
@@ -28,7 +28,7 @@
 
 #### mark as completed
 
-```http
+```
   PUT /completed
 
   body : {
